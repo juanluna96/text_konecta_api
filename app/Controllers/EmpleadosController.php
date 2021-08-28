@@ -33,7 +33,7 @@ class EmpleadosController extends ResourceController
         $rules = [
             "nombre" => "required",
             "salario" => "required|numeric",
-            // "fecha_ingreso" => "required",
+            "fecha_ingreso" => "required"
         ];
 
         $messages = [

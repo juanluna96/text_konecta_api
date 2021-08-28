@@ -20,7 +20,7 @@ class SolicitudesController extends ResourceController
     {
         $solicitud = new Solicitud();
         return $this->respond(array(
-            "Solicitudes" => $solicitud->empleados()
+            "solicitudes" => $solicitud->empleados()
         ));
     }
 
